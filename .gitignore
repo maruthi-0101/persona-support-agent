@@ -9,7 +9,6 @@ venv/
 chroma_db/
 
 # Python cache
-__pycache__/
 *.py[cod]
 *.egg-info/
 
