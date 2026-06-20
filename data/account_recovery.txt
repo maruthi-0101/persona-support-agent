@@ -1,0 +1,107 @@
+ACME CLOUD PLATFORM — ACCOUNT RECOVERY GUIDE
+===============================================
+
+If you have lost access to your Acme Cloud account, follow this guide to recover it.
+
+1. PASSWORD RESET (Self-Service)
+---------------------------------
+If you know your email but forgot your password:
+
+  a) Go to https://dashboard.acmecloud.io/forgot-password
+  b) Enter the email address associated with your account.
+  c) Click "Send Reset Link."
+  d) Check your inbox for an email from no-reply@acmecloud.io.
+  e) Click the reset link (valid for 1 hour).
+  f) Set a new password meeting these requirements:
+     - Minimum 12 characters
+     - At least 1 uppercase letter
+     - At least 1 lowercase letter
+     - At least 1 number
+     - At least 1 special character (!@#$%^&*)
+  g) After resetting, you will be logged in automatically.
+
+Note: Reset emails may take up to 5 minutes. Check Spam/Junk folders.
+
+2. EMAIL ADDRESS CHANGE
+------------------------
+If you no longer have access to the email on your account:
+
+  a) Contact support@acmecloud.io from any email address.
+  b) Subject line: "Email Change Request — [Your Name]"
+  c) Provide the following for identity verification:
+     - Full name on the account
+     - Organization name (if applicable)
+     - Last 4 digits of the payment method on file
+     - Approximate date of account creation
+     - Names of any applications deployed on the account
+  d) Our team will verify your identity within 1-2 business days.
+  e) Once verified, we will update your email and send confirmation.
+
+3. TWO-FACTOR AUTHENTICATION RECOVERY
+---------------------------------------
+If you lost your 2FA device and don't have backup recovery codes:
+
+  a) Contact support@acmecloud.io with subject: "2FA Recovery — [Account Email]"
+  b) You will be required to verify your identity:
+     - Government-issued photo ID (passport, driver's license)
+     - Selfie holding the ID (to prevent fraud)
+     - Answer security questions set during account creation
+  c) Identity verification takes 1-3 business days.
+  d) Once verified, 2FA will be disabled on your account.
+  e) Log in and immediately set up new 2FA credentials.
+
+Important: We strongly recommend saving backup recovery codes in a secure location
+(password manager, printed and stored in a safe, etc.) to avoid this process.
+
+4. COMPROMISED ACCOUNT
+-----------------------
+If you believe your account has been accessed by an unauthorized person:
+
+  IMMEDIATE STEPS:
+  a) Reset your password immediately if you still have access.
+  b) Revoke all active API keys: Dashboard → Settings → API Keys → Revoke All
+  c) Review the audit log: Dashboard → Security → Audit Log
+  d) Check for unauthorized changes:
+     - New team members added
+     - Applications created or deleted
+     - Configuration changes
+     - Billing information modifications
+
+  CONTACT SUPPORT:
+  a) Email security@acmecloud.io with subject: "URGENT: Compromised Account"
+  b) Include:
+     - Your account email
+     - Description of suspicious activity
+     - Approximate time you noticed the issue
+  c) Our security team will respond within 2 hours.
+
+5. DELETED ACCOUNT RECOVERY
+-----------------------------
+If your account was recently deleted (within 30 days):
+
+  a) Contact support@acmecloud.io with subject: "Account Recovery — [Account Email]"
+  b) Accounts can be restored within 30 days of deletion.
+  c) All data (applications, configurations, databases) will be restored.
+  d) After 30 days, account data is permanently and irreversibly deleted.
+
+6. ORGANIZATION / TEAM ACCOUNT RECOVERY
+-----------------------------------------
+If you are locked out of an organization account:
+
+  a) Contact your organization admin to reset your access.
+  b) If the admin is unavailable, contact support@acmecloud.io.
+  c) Provide your organization name and role.
+  d) We may contact other verified organization admins for approval.
+
+7. SUPPORT CONTACT
+-------------------
+  - Email: support@acmecloud.io
+  - Security issues: security@acmecloud.io
+  - Phone: +1-800-ACME-SOS (Enterprise accounts, 24/7)
+  - Live chat: Monday-Friday, 9 AM - 6 PM EST
+
+  Response times:
+  - Free/Starter: Within 48 hours
+  - Pro: Within 24 hours
+  - Business: Within 4 hours
+  - Enterprise: Within 1 hour

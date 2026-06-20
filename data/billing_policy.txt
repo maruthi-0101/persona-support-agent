@@ -1,0 +1,77 @@
+ACME CLOUD PLATFORM — BILLING POLICY
+=====================================
+
+Last Updated: January 15, 2025
+
+1. BILLING CYCLE
+----------------
+- All accounts are billed monthly on the anniversary of the account creation date.
+- Invoices are generated on the first day of each billing cycle and are due within 15 days.
+- Late payments incur a 1.5% monthly interest charge after the 15-day grace period.
+
+2. PAYMENT METHODS
+------------------
+Accepted payment methods:
+- Credit/Debit Cards: Visa, MasterCard, American Express
+- ACH / Bank Transfer (US accounts only)
+- Wire Transfer (for invoices exceeding $5,000)
+- PayPal (Pro plan and below)
+
+To update your payment method:
+  Dashboard → Billing → Payment Methods → Add/Edit
+
+3. PRICING TIERS
+----------------
+  Plan          Monthly Price    Included Resources
+  ----------    -------------    ------------------
+  Free          $0               1 app, 512 MB RAM, shared CPU
+  Starter       $5/month         2 apps, 1 GB RAM, 1 vCPU
+  Pro           $25/month        5 apps, 4 GB RAM, 2 vCPU
+  Business      $99/month        20 apps, 16 GB RAM, 4 vCPU
+  Enterprise    Custom           Unlimited apps, dedicated resources
+
+4. OVERAGE CHARGES
+------------------
+- Bandwidth: $0.10 per GB over the included allowance
+- Storage: $0.05 per GB/month over the included allowance
+- Compute: $0.04 per vCPU-hour beyond the plan limit
+- API calls: $0.001 per 1,000 calls beyond the plan limit
+
+Overage charges are calculated daily and added to the next invoice.
+
+5. PLAN CHANGES
+---------------
+- Upgrades: Effective immediately. You are charged a prorated amount for the remainder of the billing cycle.
+- Downgrades: Effective at the start of the next billing cycle. No partial refunds for the current cycle.
+- Plan changes can be made at: Dashboard → Billing → Change Plan
+
+6. TAXES
+--------
+- Prices listed are exclusive of applicable taxes.
+- Sales tax, VAT, or GST may apply depending on your jurisdiction.
+- Tax-exempt organizations must submit valid documentation to billing@acmecloud.io.
+
+7. INVOICE DISPUTES
+-------------------
+If you believe an invoice is incorrect:
+1. Contact billing@acmecloud.io within 30 days of the invoice date.
+2. Provide your account ID, invoice number, and a description of the discrepancy.
+3. Disputed amounts will be investigated within 5 business days.
+4. Valid disputes will be credited on the next billing cycle.
+
+8. ACCOUNT SUSPENSION
+---------------------
+- Accounts with payments overdue by more than 30 days may be suspended.
+- Suspended accounts cannot deploy new applications or modify existing ones.
+- Data is retained for 90 days after suspension. After 90 days, data may be permanently deleted.
+- To reactivate a suspended account, pay all outstanding invoices plus any applicable late fees.
+
+9. CANCELLATION
+---------------
+- You may cancel your account at any time from Dashboard → Settings → Cancel Account.
+- Cancellation takes effect at the end of the current billing cycle.
+- No refunds are issued for partial billing periods.
+- All data will be deleted 30 days after cancellation unless you request a data export.
+
+For billing questions, contact: billing@acmecloud.io
+Phone: +1-800-ACME-PAY (Monday-Friday, 9 AM - 6 PM EST)

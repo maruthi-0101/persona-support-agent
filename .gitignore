@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# ChromaDB local storage
+chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

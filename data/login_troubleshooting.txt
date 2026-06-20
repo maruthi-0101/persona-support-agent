@@ -1,0 +1,100 @@
+ACME CLOUD PLATFORM — LOGIN TROUBLESHOOTING GUIDE
+===================================================
+
+If you are having trouble logging into your Acme Cloud account, follow the steps below.
+
+1. INCORRECT PASSWORD
+---------------------
+Symptoms: "Invalid email or password" error message.
+
+Steps:
+  a) Verify that Caps Lock is OFF.
+  b) Try typing your password in a plain text editor first to confirm accuracy.
+  c) Clear your browser's cached credentials:
+     - Chrome: Settings → Passwords → Find acmecloud.io → Delete saved password
+     - Firefox: Settings → Privacy → Saved Logins → Remove acmecloud.io entry
+  d) If you've forgotten your password, use the "Forgot Password" link on the login page.
+  e) Password reset emails are sent within 2 minutes. Check your Spam/Junk folder.
+
+2. ACCOUNT LOCKED
+-----------------
+Symptoms: "Your account has been temporarily locked" error message.
+
+Cause: 5 consecutive failed login attempts within 15 minutes.
+
+Steps:
+  a) Wait 30 minutes for the automatic unlock.
+  b) If urgent, contact support@acmecloud.io with your account email.
+  c) After unlocking, reset your password immediately.
+  d) Consider enabling a password manager to prevent future lockouts.
+
+3. TWO-FACTOR AUTHENTICATION (2FA) ISSUES
+------------------------------------------
+Symptoms: Cannot receive or enter the 2FA code.
+
+If using an Authenticator App (Google Authenticator, Authy):
+  a) Ensure your device clock is synchronized (Settings → Date & Time → Auto).
+  b) Time drift of more than 30 seconds can cause code rejection.
+  c) Try the next code — codes rotate every 30 seconds.
+
+If using SMS:
+  a) Verify your phone number is correct in Dashboard → Settings → Security.
+  b) Check if your carrier is blocking short-code messages.
+  c) Request a voice call alternative by clicking "Call me instead."
+
+Lost access to 2FA device:
+  a) Use one of your backup recovery codes (provided during 2FA setup).
+  b) If you don't have recovery codes, contact support@acmecloud.io.
+  c) Identity verification will be required (government-issued ID + account details).
+  d) Recovery process takes 1-3 business days.
+
+4. SSO / SINGLE SIGN-ON ISSUES
+-------------------------------
+Symptoms: Redirect loop or "SSO configuration error" message.
+
+Steps:
+  a) Verify your organization's SSO provider is operational.
+  b) Clear browser cookies for acmecloud.io and your SSO provider.
+  c) Try an incognito/private browser window.
+  d) Confirm your email domain matches the SSO configuration.
+  e) Contact your IT admin to verify the SAML/OIDC configuration:
+     - Entity ID: https://auth.acmecloud.io/saml/metadata
+     - ACS URL: https://auth.acmecloud.io/saml/acs
+     - Logout URL: https://auth.acmecloud.io/saml/slo
+
+5. BROWSER COMPATIBILITY
+-------------------------
+Supported browsers:
+  - Google Chrome 90+
+  - Mozilla Firefox 90+
+  - Microsoft Edge 90+
+  - Safari 15+
+
+If you experience rendering issues:
+  a) Update your browser to the latest version.
+  b) Disable browser extensions (especially ad blockers and privacy extensions).
+  c) Clear your browser cache: Ctrl+Shift+Delete (Cmd+Shift+Delete on macOS).
+  d) Try a different browser to isolate the issue.
+
+6. SESSION TIMEOUT
+------------------
+Default session duration: 8 hours of inactivity.
+
+If your session expires frequently:
+  a) Check if your browser is configured to clear cookies on exit.
+  b) Ensure "Remember me" is checked during login.
+  c) Enterprise accounts can configure custom session durations:
+     Dashboard → Organization → Security → Session Timeout
+
+7. STILL NEED HELP?
+--------------------
+If none of the above steps resolved your issue:
+  - Email: support@acmecloud.io
+  - Live Chat: Available Monday-Friday, 9 AM - 6 PM EST
+  - Emergency: +1-800-ACME-SOS (Enterprise accounts, 24/7)
+
+Please include:
+  - Your account email address
+  - Browser name and version
+  - Screenshot of the error message
+  - Approximate time of the issue
