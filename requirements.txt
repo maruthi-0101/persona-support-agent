@@ -6,3 +6,4 @@ langchain-text-splitters
 pypdf
 python-dotenv
 sentence-transformers
+protobuf==3.20.3
